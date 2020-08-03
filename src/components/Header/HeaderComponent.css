@@ -1,0 +1,52 @@
+li,
+a {
+  font-family: Century Gothic, CenturyGothic, arial;
+  font-weight: 800;
+  font-size: 16px;
+  text-decoration: none;
+  color: #564c9e;
+}
+
+/* li,
+a:hover {
+  color: #db914b;
+} */
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 30px 6%;
+}
+
+.logo {
+  cursor: pointer;
+  margin-right: auto;
+}
+
+.nav__links {
+  list-style: none;
+}
+
+.nav__links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.header--button {
+  border: 2px solid #a828d3;
+  padding: 0 10px;
+  background-color: white;
+  border-radius: 20px;
+  font-weight: 800;
+  color: #a828d3;
+}
+
+.header--button:hover {
+  background-color: #a828d3;
+  color: white;
+}
+
+.header--button:focus {
+  outline: 0;
+}

@@ -3,6 +3,7 @@ import './CoursesComponent.css';
 import CardCourse from './CardCourse';
 import Flickity from 'react-flickity-component';
 import 'flickity/css/flickity.css';
+import blueArrow from './../../img/blueArrow.png';
 
 function CoursesComponent() {
   return (
@@ -16,6 +17,7 @@ function CoursesComponent() {
       </Flickity>
       <div className="button--courses">
         <button>MORE</button>
+        <img src={blueArrow} alt="asd" width="30" />
       </div>
     </section>
   );

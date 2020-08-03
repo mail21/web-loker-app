@@ -47,6 +47,11 @@
   font-size: 20px;
 }
 
+.button--courses > img {
+  position: relative;
+  right: 20px;
+}
+
 .button--courses {
   display: flex;
   justify-content: flex-end;

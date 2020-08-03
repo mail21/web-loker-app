@@ -1,0 +1,54 @@
+.section--Courses--h1 {
+  margin: 20px auto;
+  text-align: center;
+  font-size: 40px;
+  font-weight: 650;
+  color: #9900cc;
+}
+
+.card-course img {
+  width: 80px;
+  margin: auto;
+}
+
+.course-name {
+  margin: auto;
+  color: #9900cc;
+  font-weight: 700;
+}
+
+.vertical {
+  border-left: 6px solid #9900cc;
+  height: 150px;
+  position: absolute;
+}
+
+.card-course {
+  border: none;
+  width: 220px;
+  height: 150px;
+  background-color: lightgray;
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 0px 60px;
+}
+
+.button--courses button {
+  background-color: darkblue;
+  color: white;
+  font-weight: 700;
+  padding: 1px 30px;
+  border-radius: 20px;
+  border: none;
+  font-size: 20px;
+}
+
+.button--courses {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}

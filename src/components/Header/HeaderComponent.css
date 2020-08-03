@@ -34,16 +34,16 @@ header {
 }
 
 .header--button {
-  border: 2px solid #a828d3;
+  border: 2px solid #9900cc;
   padding: 0 10px;
   background-color: white;
   border-radius: 20px;
   font-weight: 800;
-  color: #a828d3;
+  color: #9900cc;
 }
 
 .header--button:hover {
-  background-color: #a828d3;
+  background-color: #9900cc;
   color: white;
 }
 

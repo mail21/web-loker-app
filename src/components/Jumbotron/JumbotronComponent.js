@@ -4,16 +4,16 @@ import Jumbotron from './../../img/Jumbotron.png';
 
 function JumbotronComponent() {
   return (
-    <article>
-      <section>
-        <h1>Loker Programmer</h1>
+    <section className="section--jumbotron">
+      <article>
+        <h1 className="article--jumbotron-h1">Loker Programmer</h1>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem iusto perferendis exercitationem fuga quam? Temporibus, aperiam</p>
         <button className="button--jumbotron">Mulai</button>
-      </section>
+      </article>
       <aside>
         <img src={Jumbotron} alt="jumbotron" />
       </aside>
-    </article>
+    </section>
   );
 }
 

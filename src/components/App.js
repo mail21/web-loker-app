@@ -3,6 +3,7 @@ import './App.css';
 import HeaderComponent from './Header/HeaderComponent';
 import JumbotronComponent from './Jumbotron/JumbotronComponent';
 import CoursesComponent from './Courses/CoursesComponent';
+import FooterComponent from './Footer/FooterComponent';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <HeaderComponent />
       <JumbotronComponent />
       <CoursesComponent />
+      <FooterComponent />
     </div>
   );
 }

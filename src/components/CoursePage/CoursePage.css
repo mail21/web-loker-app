@@ -1,0 +1,102 @@
+.main--courses {
+  background-color: #9900ff;
+  padding: 50px 0;
+}
+
+.main--courses > section {
+  display: flex;
+}
+
+.main--courses > section > article {
+  flex: 4;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  flex: 1;
+  background-color: white;
+  width: 250px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-right: 20px;
+}
+
+.sidebar > h2 {
+  text-align: center;
+  color: #ff00ff;
+  font-weight: 600;
+}
+
+.item {
+  width: 95%;
+  align-self: flex-end;
+  height: 120px;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-left: 70px;
+  padding-top: 10px;
+  margin: 30px 0;
+}
+
+.item:active {
+  background-color: #9900ff;
+}
+
+.item:hover {
+  background-color: #9900ff;
+}
+
+.course-materi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.kartu {
+  border: 1px solid;
+  border-radius: 20px;
+  width: 200px;
+  background-color: lightgray;
+  margin-bottom: 50px;
+  margin-right: 40px;
+  box-shadow: 0px 0px 9px 1px;
+}
+
+.kartu > div {
+  width: 198px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  height: 200px;
+}
+
+.kartu > h4 {
+  padding: 10px;
+  color: #9900ff;
+  font-weight: 500;
+  text-align: center;
+  border-top: 1px solid lightgray;
+}
+
+.searchbar {
+  display: inline-block;
+  background-color: white;
+  border-radius: 20px;
+  align-self: flex-end;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.searchbar > input {
+  border: none;
+  border-radius: 20px;
+  outline: none;
+}
+.searchbar > img {
+  background-color: gray;
+  border-radius: 20px;
+  padding: 5px;
+}

@@ -5,6 +5,10 @@ import KartuMateri from './KartuMateri';
 import CourseSearchBox from './CourseSearchBar';
 
 function CoursePage() {
+  React.useEffect(() => {
+    window.scroll(0, 0);
+  });
+
   return (
     <main className="main--courses">
       <section>

@@ -9,21 +9,12 @@ import FooterComponent from './Footer/FooterComponent';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import CoursePage from './CoursePage/CoursePage';
 
-const Example = () => {
-  return (
-    <>
-      <h1>example</h1>
-    </>
-  );
-};
-
 function App() {
   return (
     <Router>
       <div className="App">
         <HeaderComponent />
         <Switch>
-          <Route path="/example" />
           <Route path="/courses" component={CoursePage} />
           <Route path="/">
             <JumbotronComponent />

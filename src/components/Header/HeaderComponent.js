@@ -13,13 +13,13 @@ function HeaderComponent() {
             <Link to="/courses">Course</Link>
           </li>
           <li>
-            <Link>Event</Link>
+            <Link to="/event">Event</Link>
           </li>
           <li>
-            <Link>Blog</Link>
+            <Link to="/blog">Blog</Link>
           </li>
           <li>
-            <Link>Help</Link>
+            <Link to="/help">Help</Link>
           </li>
           <li>
             <button className="header--button">Login</button>

@@ -24,12 +24,13 @@
   align-self: center;
 }
 
-.headline-blog > article {
+.headline-blog article {
   display: flex;
   border-radius: 20px;
   flex-direction: column;
   background-color: white;
   width: 600px;
+  margin-right: 150px;
 }
 
 article > .headline-image {
@@ -40,7 +41,10 @@ article > .headline-image {
   background-size: cover;
 }
 
-.headline-blog > article h3,
+.headline-blog article h3,
 p {
   padding: 10px;
+}
+.main-carousel {
+  display: flex;
 }

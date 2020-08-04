@@ -1,24 +1,25 @@
 import React from 'react';
 import logo from './../../img/logo.png';
 import './HeaderComponent.css';
+import { Link } from 'react-router-dom';
 
 function HeaderComponent() {
   return (
     <header>
-      <img className="logo" src={logo} alt="logo" width="70px" />
+      <img className="logo" src={logo} alt="logo" width="50px" />
       <nav>
         <ul className="nav__links">
           <li>
-            <a>Course</a>
+            <Link to="/courses">Course</Link>
           </li>
           <li>
-            <a>Event</a>
+            <Link>Event</Link>
           </li>
           <li>
-            <a>Blog</a>
+            <Link>Blog</Link>
           </li>
           <li>
-            <a>Help</a>
+            <Link>Help</Link>
           </li>
           <li>
             <button className="header--button">Login</button>

@@ -1,5 +1,5 @@
 li,
-a {
+Link {
   font-family: Century Gothic, CenturyGothic, arial;
   font-weight: 800;
   font-size: 16px;
@@ -7,21 +7,22 @@ a {
   color: #564c9e;
 }
 
-/* li,
 a:hover {
-  color: #db914b;
-} */
+  color: #0056b3;
+  text-decoration: none;
+}
 
 header {
   display: flex;
   justify-content: flex-end;
-  align-items: center;
-  padding: 30px 6%;
+  padding: 20px 6%;
+  align-items: flex-end;
 }
 
 .logo {
   cursor: pointer;
   margin-right: auto;
+  margin-top: auto;
 }
 
 .nav__links {

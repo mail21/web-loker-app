@@ -12,7 +12,7 @@ function CardReview({ nama, rating }) {
 
         <div>
           <span className="card-review--nama">{nama}</span>
-          <Rating name="read-only" value={rating} readOnly />
+          <Rating name="read-only" value={parseInt(rating)} readOnly />
         </div>
       </div>
     </div>
